@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import Slider from "./Slider";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,6 +16,7 @@ function App() {
           Edit <code>src/App.jsx</code> and <code>src/App.css</code> to get
           started!
         </p>
+        <Slider></Slider>
       </div>
     </div>
   );
